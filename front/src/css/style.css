@@ -1,0 +1,129 @@
+html {
+    
+    font-size: 62.5%;
+  }
+ *{
+    font-size: 2rem;
+  }
+.img{
+  width: 100%;
+   
+   margin-bottom: -10%;
+}
+.sectionproduct{
+    font-size: 1rem !important;
+    margin-left: 2%;
+    position: relative !important;
+  
+
+    }
+    .titleproduct::after{
+    position: absolute;  
+    content: " ";
+      border-top: 1px dashed #4d5252;
+      width: 88%;
+      top:50%;
+  
+    };
+  
+    
+    #navbarScrollingDropdown.dropdown-toggle nav-link{
+      color:rgb(108,117,125);
+    }
+    
+   /*detailsproduct*/
+   .imageproduct{
+    margin-left: 10%;
+    margin-right: 10%;
+   
+   };
+   .custom-upload {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .custom-upload:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .custom-upload input[type="file"] {
+    display: none;
+  }
+  /* header*/
+  .link{
+    text-decoration: none;
+    color: #fff;
+  }
+  .login{
+    font-family:"Julee";
+    color:black;
+  }
+  /* inscription*/
+  .inner {
+  width: 40%;
+    margin: auto;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:2rem; 
+    border-radius:20px ;
+     background-color:white;}
+    .Forminput{
+      font-family: 'Fira Sans Condensed', sans-serif;
+    }
+    /*displaycart*/
+  /** home  **/
+  /** admin*/
+  .navadmin{
+    padding-left: 0 !important;
+  padding-right: 0!important;
+  }
+  .navbaradmin{
+    padding-top:5%;
+    padding-bottom: 30%;
+   
+  }
+  /*dashboard */
+  .dashboard {
+    width: 35%;
+    margin: 1% ;
+   
+  }
+  
+element.style {
+}
+.dashboard {
+  
+  
+    margin-bottom: 2%;
+height: 12rem ;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: #ffc107;
+}
+  .spandashdoard{
+    padding-left: 2%;
+  }
+  /*addarticle by admin*/
+  .formadd{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size:2rem; 
+  border-radius:20px ;
+  padding:1rem 1rem;
+  width: 75%;
+  margin:  auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+border:'1px solid grey';
+background-color: #fff;
+}
